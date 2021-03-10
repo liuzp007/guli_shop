@@ -1,0 +1,11 @@
+//此文件用于 处理src 为@代理
+
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+          "@/*": ["src/*"]
+      }
+    },
+    "exclude": ["node_modules", "dist"]
+  }
